@@ -17,10 +17,12 @@ window.onload = function () {
   let oracion = who + " " + action + " " + what + " " + when;
 
   //funcion para aleatorios
-  num= Math.floor(Math.random() *10);
-  if (){
-    
-  }
+  let num1 = Math.floor(Math.random() * 5);
+  let num2 = Math.floor(Math.random() * 4);
+  let num3 = Math.floor(Math.random() * 6);
+  
+
+  let respuesta =  who[num1] + " " + action[num1] + " " + what[num2] + " " + when[num3];
 
   document.getElementById("excusa").innerHTML = respuesta;
 };
