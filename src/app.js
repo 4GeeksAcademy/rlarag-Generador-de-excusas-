@@ -17,9 +17,9 @@ window.onload = function () {
   let oracion = who + " " + action + " " + what + " " + when;
 
   //funcion para aleatorios
-  let num1 = Math.floor(Math.random() * 5);
-  let num2 = Math.floor(Math.random() * 4);
-  let num3 = Math.floor(Math.random() * 6);
+  let num1 = Math.floor(Math.random() * 4);
+  let num2 = Math.floor(Math.random() * 3);
+  let num3 = Math.floor(Math.random() * 5);
   
 
   let respuesta =  who[num1] + " " + action[num1] + " " + what[num2] + " " + when[num3];
