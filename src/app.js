@@ -17,12 +17,13 @@ window.onload = function () {
   let oracion = who + " " + action + " " + what + " " + when;
 
   //funcion para aleatorios
-  let num1 = Math.floor(Math.random() * 4);
-  let num2 = Math.floor(Math.random() * 3);
-  let num3 = Math.floor(Math.random() * 5);
+  let ElQuien = Math.floor(Math.random() * who.length);
+  let QueHizo = Math.floor(Math.random() * action.length);
+  let QueFueLoAfectado= Math.floor(Math.random() * what.length);
+  let CuandoFue = Math.floor(Math.random() * when.length);
   
 
-  let respuesta =  who[num1] + " " + action[num1] + " " + what[num2] + " " + when[num3];
+  let Excusa =  who[ElQuien] + " " + action[QueHizo] + " " + what[QueFueLoAfectado] + " " + when[CuandoFue];
 
-  document.getElementById("excusa").innerHTML = respuesta;
+  document.getElementById("excusa").innerHTML = Excuasa;
 };
